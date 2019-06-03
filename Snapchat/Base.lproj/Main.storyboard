@@ -160,16 +160,31 @@
             </objects>
             <point key="canvasLocation" x="2222" y="41"/>
         </scene>
-        <!--View Controller-->
+        <!--Elegir Usuario View Controller-->
         <scene sceneID="R9K-w6-h2i">
             <objects>
-                <viewController id="5OM-cf-Du0" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="5OM-cf-Du0" customClass="ElegirUsuarioViewController" customModule="Snapchat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sbX-PT-DeB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="scy-hM-O8P">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="scy-hM-O8P" firstAttribute="leading" secondItem="1Ck-EC-icH" secondAttribute="leading" id="FtN-j5-oUn"/>
+                            <constraint firstItem="1Ck-EC-icH" firstAttribute="bottom" secondItem="scy-hM-O8P" secondAttribute="bottom" id="WW9-MT-lLQ"/>
+                            <constraint firstItem="1Ck-EC-icH" firstAttribute="trailing" secondItem="scy-hM-O8P" secondAttribute="trailing" id="yFZ-dZ-7Pb"/>
+                            <constraint firstItem="scy-hM-O8P" firstAttribute="top" secondItem="1Ck-EC-icH" secondAttribute="top" id="yc9-g0-YCM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1Ck-EC-icH"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="scy-hM-O8P" id="EoQ-y4-CFf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uen-PJ-dSP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

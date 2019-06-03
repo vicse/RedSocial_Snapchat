@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		55093A6E22A5D1240072248A /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55093A6D22A5D1240072248A /* SnapsViewController.swift */; };
 		55093A7022A5D6690072248A /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55093A6F22A5D6690072248A /* ImagenViewController.swift */; };
+		55093A7222A5E28F0072248A /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55093A7122A5E28F0072248A /* ElegirUsuarioViewController.swift */; };
 		55AC72AB229DE21200C60575 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55AC72AA229DE21200C60575 /* GoogleService-Info.plist */; };
 		55CD2133229DD82300E4C016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2132229DD82300E4C016 /* AppDelegate.swift */; };
 		55CD2135229DD82300E4C016 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2134229DD82300E4C016 /* iniciarSesionViewController.swift */; };
@@ -23,6 +24,7 @@
 		55093A6A22A5CD2E0072248A /* Snapchat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snapchat.entitlements; sourceTree = "<group>"; };
 		55093A6D22A5D1240072248A /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		55093A6F22A5D6690072248A /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		55093A7122A5E28F0072248A /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
 		55AC72AA229DE21200C60575 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		55CD212F229DD82300E4C016 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CD2132229DD82300E4C016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				55CD2139229DD82300E4C016 /* Snapchat.xcdatamodeld */,
 				55093A6D22A5D1240072248A /* SnapsViewController.swift */,
 				55093A6F22A5D6690072248A /* ImagenViewController.swift */,
+				55093A7122A5E28F0072248A /* ElegirUsuarioViewController.swift */,
 			);
 			path = Snapchat;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				55CD2135229DD82300E4C016 /* iniciarSesionViewController.swift in Sources */,
 				55CD213B229DD82300E4C016 /* Snapchat.xcdatamodeld in Sources */,
 				55CD2133229DD82300E4C016 /* AppDelegate.swift in Sources */,
+				55093A7222A5E28F0072248A /* ElegirUsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
